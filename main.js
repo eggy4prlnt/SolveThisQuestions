@@ -39,7 +39,7 @@ askToGPT = function (word) {
         chrome.notifications.create({
             type: "basic",
             iconUrl: "assets/icons/icon.png",
-            title: "Question Solver - Answer",
+            title: "Solve This Questions! - Answer",
             message: answer,
         });
     }).catch(function (error) {
