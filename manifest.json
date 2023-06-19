@@ -1,0 +1,21 @@
+{
+    "name": "Solve This Questions!",
+    "description": "This extension will help you to solve questions from any website.",
+    "author": "@eggy4prlnt",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "notifications"
+    ],
+    "icons": {
+        "16": "assets/icons/icon.png",
+        "32": "assets/icons/icon.png",
+        "48": "assets/icons/icon.png",
+        "128": "assets/icons/icon.png"
+      },
+    "background": {
+        "service_worker": "main.js"
+    }
+}
