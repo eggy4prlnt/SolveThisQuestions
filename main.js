@@ -1,4 +1,4 @@
-const api_key = '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'; // your API key here (sk-xxxxxx)
+const api_key = ''; // your API key here (sk-xxxxxx)
 
 askToGPT = function (word) {
     var query = word.selectionText;
