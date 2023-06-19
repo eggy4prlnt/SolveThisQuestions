@@ -30,7 +30,7 @@ askToGPT = function (word) {
             return response.json();
         }).then(function (json) {
             
-            if (json.error.code != '') {
+            if (json.error && json.error.code != '') {
 
                 chrome.notifications.create({
                     type: "basic",
