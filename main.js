@@ -1,4 +1,4 @@
-const api_key = ''; // your API key here (sk-xxxxxx)
+const api_key = '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'; // your API key here (sk-xxxxxx)
 
 askToGPT = function (word) {
     var query = word.selectionText;
@@ -11,7 +11,7 @@ askToGPT = function (word) {
     fetch("https://api.openai.com/v1/completions", {
         body: JSON.stringify({
             "model": "text-davinci-003",
-            "prompt": "Question : " + query + "\nAnswer :",
+            "prompt": "Selesaikan soal ini dengan jawaban A,B,C,D atau E\n\nQuestion : " + query + "\nAnswer :",
             "max_tokens": 100,
             "temperature": 0,
             "top_p": 1,
