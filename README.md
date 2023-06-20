@@ -9,8 +9,8 @@
 1. Download repository ini lalu extract ke folder yang diinginkan
 2. Buka folder lalu edit file main.js
 3. Isi api_key dengan key openai punya mu.
-3. Buka chrome://extensions/ lalu aktifkan Developer Mode
-3. Klik "Load unpacked" lalu pilih folder yang di extract tadi.
+4. Buka chrome://extensions/ lalu aktifkan Developer Mode
+5. Klik "Load unpacked" lalu pilih folder yang di extract tadi.
 ``` 
 
 ## Todo List
